@@ -22,10 +22,12 @@ namespace LineComparision
             
             n = Math.Sqrt(Math.Pow(x4 - x3, 2) + Math.Pow(y4 - y3, 2));
 
-            if (m .Equals(n))
+            if (m == n)
                 Console.WriteLine("Length of two lines are equal");
+            else if(m > n)
+                Console.WriteLine("Length of line 1 is greater than Line 2");
             else
-                Console.WriteLine("Length of two lines are not equal");
+                Console.WriteLine("Length of line 1 is less than line 2");
         }
     }
 }
