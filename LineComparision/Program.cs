@@ -19,6 +19,7 @@ namespace LineComparision
             Program line1 = new Program();
             Console.WriteLine("Enter the Co -ordinates of 2nd line:");
 <<<<<<< HEAD
+<<<<<<< HEAD
             int x3 = Convert.ToInt32(Console.ReadLine());
             int x4= Convert.ToInt32(Console.ReadLine());
             int y3= Convert.ToInt32(Console.ReadLine());
@@ -37,8 +38,15 @@ namespace LineComparision
             lengthLine2= Math.Sqrt(Math.Pow(line2.endpoint1 - line2.startpoint1, 2) + Math.Pow(line2.endpoint2 - line2.startpoint2, 2));
             if (lengthLine1.Equals(lengthLine2))
 >>>>>>> UC2-CheckEqualityOf2Lines
+=======
+            Program line2 = new Program();
+            double lengthLine1, lengthLine2;
+            lengthLine1 = Math.Sqrt(Math.Pow(line1.endpoint1 - line1.startpoint1, 2) + Math.Pow(line1.endpoint2 - line1.startpoint2, 2));
+            lengthLine2 = Math.Sqrt(Math.Pow(line2.endpoint1 - line2.startpoint1, 2) + Math.Pow(line2.endpoint2 - line2.startpoint2, 2));
+            if (lengthLine1.Equals(lengthLine2))
+>>>>>>> UC3-Compare2Lines
                 Console.WriteLine("Length of two lines are equal");
-            else if(m > n)
+            if (lengthLine1>lengthLine2)
                 Console.WriteLine("Length of line 1 is greater than Line 2");
             else
                 Console.WriteLine("Length of line 1 is less than line 2");
