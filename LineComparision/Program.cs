@@ -7,15 +7,13 @@ namespace LineComparision
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Line Comparision Computation Program");
-            int x1 = Convert.ToInt32(Console.ReadLine());                
-            int x2 = Convert.ToInt32(Console.ReadLine()); 
-            int y1 = Convert.ToInt32(Console.ReadLine()); 
-            int y2 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine(Math.Sqrt(Math.Pow(x2 - x1, 2) +
-                      Math.Pow(y2 - y1, 2)));
-
-
+            int startpoint1 = Convert.ToInt32(Console.ReadLine());                
+            int endpoint1 = Convert.ToInt32(Console.ReadLine()); 
+            int startpoint2 = Convert.ToInt32(Console.ReadLine()); 
+            int endpoint2 = Convert.ToInt32(Console.ReadLine());
+            double length;
+            length = Math.Sqrt(Math.Pow(endpoint1 - startpoint1, 2) + Math.Pow(endpoint2 - startpoint2, 2));
+            Console.WriteLine("Length of two Co-ordinates :" + length);
         }
     }
 }
