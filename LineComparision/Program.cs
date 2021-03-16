@@ -6,7 +6,6 @@ namespace LineComparision
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Line Comparision Computation Program");
             int startpoint1 = Convert.ToInt32(Console.ReadLine());                
             int endpoint1 = Convert.ToInt32(Console.ReadLine()); 
             int startpoint2 = Convert.ToInt32(Console.ReadLine());
