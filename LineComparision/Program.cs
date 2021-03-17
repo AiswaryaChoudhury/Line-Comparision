@@ -16,11 +16,8 @@ namespace LineComparision
             lengthLine2= Math.Sqrt(Math.Pow(line2.endpoint1 - line2.startpoint1, 2) + Math.Pow(line2.endpoint2 - line2.startpoint2, 2));
             if (lengthLine1.Equals(lengthLine2))
                 Console.WriteLine("Length of two lines are equal");
-<<<<<<< HEAD
-=======
             if (lengthLine1 > lengthLine2)
                 Console.WriteLine("Length of line 1 is greater than Line 2");
->>>>>>> UC3-Compare2Lines
             else
                 Console.WriteLine("Length of two lines are not equal");
 
