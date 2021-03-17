@@ -5,21 +5,8 @@ namespace LineComparision
     class Program
     {
         static void Main(string[] args)
-<<<<<<< HEAD
         { 
-            Console.WriteLine("Welcome To Line Comparision Computation Program");
-=======
-        {
-<<<<<<< HEAD
-            int startpoint1 = Convert.ToInt32(Console.ReadLine());                
-            int endpoint1 = Convert.ToInt32(Console.ReadLine()); 
-            int startpoint2 = Convert.ToInt32(Console.ReadLine());
-            int endpoint2 = Convert.ToInt32(Console.ReadLine());
-            double length;
-            length = Math.Sqrt(Math.Pow(endpoint1 - startpoint1, 2) + Math.Pow(endpoint2 - startpoint2, 2));
-            Console.WriteLine("Length of two Co-ordinates :" + length);
->>>>>>> UC1-CalculateLength
-=======
+
             Console.WriteLine("Enter the Co -ordinates of 1st line:");
             Length line1 = new Length();
             Console.WriteLine("Enter the Co -ordinates of 2nd line:");
@@ -31,7 +18,7 @@ namespace LineComparision
                 Console.WriteLine("Length of two lines are equal");
             else
                 Console.WriteLine("Length of two lines are not equal");
->>>>>>> UC2-CheckEqualityOf2Lines
+
         }
     }
 }
